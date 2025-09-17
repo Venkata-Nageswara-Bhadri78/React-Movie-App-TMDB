@@ -22,7 +22,7 @@ export const useAllMoviesData = () => {
           const apiLink = `${baseLink}/trending/movie/day?api_key=${apiKey}&page=${page}`;
 
           // https://api.themoviedb.org/3/trending/movie/day?api_key=661d803937222864ed1d73599670bf1b&page=1
-          console.log(apiLink);
+        //   console.log(apiLink);
 
           const res = await fetch(apiLink);
           if (!res.ok) throw new Error("Error fetching data");
